@@ -25,7 +25,7 @@ Remember that your README should:
 - Include a screenshot of completed training jobs
 ![completed training jobs.png](Successful training jobs.png)
 - Logs metrics during the training process
-![model_train_score.png](nd009t-c1-intro-to-ml-project-starter/model_train_score.png)
+Done within the scripts
 - Tune at least two hyperparameters
 I tuned Learning rate and batch size.
 - Retrieve the best best hyperparameters from all your training jobs
@@ -48,8 +48,10 @@ I also checked the GPU utilization as well as the model performance graph.
 
 ## Model Deployment
 **TODO**: Give an overview of the deployed model and instructions on how to query the endpoint with a sample input.
+Done
 
 **TODO** Remember to provide a screenshot of the deployed active endpoint in Sagemaker.
+Done
 
 ## Standout Suggestions
 **TODO (Optional):** This is where you can provide information about any standout suggestions that you have attempted.
