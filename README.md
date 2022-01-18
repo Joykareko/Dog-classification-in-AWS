@@ -36,7 +36,7 @@ Done within the scripts
 I tuned Learning rate and batch size.
 - Retrieve the best best hyperparameters from all your training jobs
 The best hyperparameters for the best training job were:
-batch size-32, learning rate-0.007559624430866038
+batch size-128, learning rate-0.0021503998380643548
 ## Debugging and Profiling
 **TODO**: Give an overview of how you performed model debugging and profiling in Sagemaker
 I downloaded smdebug in sagemaker, then set up the dependencies in script mode.
