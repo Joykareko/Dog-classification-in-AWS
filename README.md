@@ -29,7 +29,7 @@ For the hyperparameter ranges, I specified the learning rate range and the batch
 
 Remember that your README should:
 - Include a screenshot of completed training jobs
-![completed training jobs.png](CD0387-deep-learning-topics-within-computer-vision-nlp-project-starter/Successful training jobs.png)
+![completed training jobs.png](Successful training jobs.png)
 - Logs metrics during the training process
 Done within the scripts
 - Tune at least two hyperparameters
@@ -72,7 +72,7 @@ response
 **TODO** Remember to provide a screenshot of the deployed active endpoint in Sagemaker.
 Done
 
-![completed endpoint.png](CD0387-deep-learning-topics-within-computer-vision-nlp-project-starter/Deployed endpoint.png)
+![completed endpoint.png](Deployed endpoint.png)
 
 ## Standout Suggestions
 **TODO (Optional):** This is where you can provide information about any standout suggestions that you have attempted.
