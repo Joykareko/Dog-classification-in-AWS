@@ -70,7 +70,7 @@ response
 ```
 
 **TODO** Remember to provide a screenshot of the deployed active endpoint in Sagemaker.
-Done
+Done.See below:
 
 ![completed endpoint.png](https://github.com/Joykareko/Dog-classification-in-AWS/blob/main/Deployed%20endpoint.png)
 
