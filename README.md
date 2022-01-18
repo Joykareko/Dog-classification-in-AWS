@@ -15,6 +15,12 @@ The project is designed to be dataset independent so if there is a dataset that 
 Upload the data to an S3 bucket through the AWS Gateway so that SageMaker has access to the data. 
 -Done
 
+### Different .py files used.
+I created 3 .py files.
+ I used hpo.py-I used this for debugger and profiler creation through use of smdebug module. This file is genrally similar to the train_model.py file but with additional variables for my test and train functions to include hooks for debugging and profile creation.
+I also created a train_model.py. This contained the functions for training and testing and model creation. I used Resnet50 as my pretrained model of choice.
+Initial endpoint invocation generated an error, so I used a custom model_endpoint.py script file to call the endpoint and use the file to generate a prediction on a test image.
+
 ## Hyperparameter Tuning
 What kind of model did you choose for this experiment and why? Give an overview of the types of parameters and their ranges used for the hyperparameter search
 
@@ -23,7 +29,7 @@ For the hyperparameter ranges, I specified the learning rate range and the batch
 
 Remember that your README should:
 - Include a screenshot of completed training jobs
-![completed training jobs.png](Successful training jobs.png)
+![completed training jobs.png](CD0387-deep-learning-topics-within-computer-vision-nlp-project-starter/Successful training jobs.png)
 - Logs metrics during the training process
 Done within the scripts
 - Tune at least two hyperparameters
@@ -50,8 +56,23 @@ I also checked the GPU utilization as well as the model performance graph.
 **TODO**: Give an overview of the deployed model and instructions on how to query the endpoint with a sample input.
 Done
 
+```
+from PIL import Image
+import io
+# TODO: Run an prediction on the endpoint
+with open("./test.jpg", "rb") as f:
+    payload = f.read()
+    
+type(payload)
+
+response=predictor.predict(payload, initial_args={"ContentType": "image/jpeg"})
+response
+```
+
 **TODO** Remember to provide a screenshot of the deployed active endpoint in Sagemaker.
 Done
+
+![completed endpoint.png](CD0387-deep-learning-topics-within-computer-vision-nlp-project-starter/Deployed endpoint.png)
 
 ## Standout Suggestions
 **TODO (Optional):** This is where you can provide information about any standout suggestions that you have attempted.
