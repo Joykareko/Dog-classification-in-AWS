@@ -72,7 +72,7 @@ response
 **TODO** Remember to provide a screenshot of the deployed active endpoint in Sagemaker.
 Done
 
-![completed endpoint.png](Deployed endpoint.png)
+![completed endpoint.png](https://github.com/Joykareko/Dog-classification-in-AWS/blob/main/Deployed%20endpoint.png)
 
 ## Standout Suggestions
 **TODO (Optional):** This is where you can provide information about any standout suggestions that you have attempted.
