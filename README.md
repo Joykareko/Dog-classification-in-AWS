@@ -29,7 +29,7 @@ For the hyperparameter ranges, I specified the learning rate range and the batch
 
 Remember that your README should:
 - Include a screenshot of completed training jobs
-![completed training jobs.png](Successful training jobs.png)
+![completed training jobs.png](https://github.com/Joykareko/Dog-classification-in-AWS/blob/main/Successful%20training%20jobs.png)
 - Logs metrics during the training process
 Done within the scripts
 - Tune at least two hyperparameters
